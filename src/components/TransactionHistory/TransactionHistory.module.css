@@ -1,0 +1,48 @@
+.history {
+   margin: 30px auto;
+   width: 750px;
+   border: 1px solid #cecece;
+   border-radius: 5px;
+ }
+ 
+ .history thead th {
+   width: 250px;
+ }
+ 
+ .history thead tr {
+   height: 50px;
+   background: #1fa8ca;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+ }
+ 
+ .history tbody tr {
+   height: 50px;
+   color: #7b7a7a;
+   background-color: white;
+ }
+ 
+ .history tr:nth-child(even) {
+   background-color: #f4f5f6;
+ }
+ 
+ .history tbody tr:hover {
+   background-color: #1fa8ca;
+   color: white;
+ }
+ 
+ .history td {
+   text-align: center;
+ }
+ 
+ .history td:nth-child(3n + 1) {
+   padding-left: 100px;
+   text-align: left;
+   text-transform: capitalize;
+ }
+ 
+ .history td:nth-child(4n-1) {
+   font-weight: 500;
+   text-transform: uppercase;
+ }

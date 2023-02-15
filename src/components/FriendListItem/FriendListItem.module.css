@@ -1,0 +1,36 @@
+.item {
+   padding: 10px;
+   display: flex;
+   width: 250px;
+   align-items: center;
+ 
+   border: 1px solid #cecece;
+   box-shadow: 5px 2px 5px #cecece;
+ }
+ 
+ .status {
+   width: 15px;
+   height: 15px;
+   margin-right: 10px;
+   border-radius: 50%;
+   background-color: red;
+ }
+ 
+ .active {
+   background-color: green;
+ }
+ 
+ .avatar {
+   padding: 5px;
+   margin-right: 10px;
+   width: 50px;
+   height: 50px;
+ 
+   border-radius: 5px;
+   border: 1px solid #d8e4e2;
+ }
+ 
+ .name {
+   font-size: 24px;
+   font-weight: 500;
+ }
